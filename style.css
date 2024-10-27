@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("/gamer-gaming-room-5120x2880-17525.jpg");
+    background-size: cover;
+    filter: saturate(100%);
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    z-index:2;
+}
+  
+form div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+  
+label {
+    width: 300px; /* Set a fixed width for labels */
+    margin: 10px 20px;;
+    background-color:blue;
+    padding: 6px 0;
+    border-radius: 10px;
+}
+.button input{
+    padding: 10px 250px;
+    background-color: green;
+
+}
+.button{
+    position: relative;
+    left: 10px;
+}
+input{
+    border-radius:5px;
+    border: solid 0.5px black;
+}
+  
+input[type="text"] {
+    flex: 1; /* This will make the input take up the remaining space */
+    padding: 10px 30px;
+}
+#result{
+    padding: 10px 20px;
+    position :absolute;
+    top:550px;
+}
+h1{
+    position:absolute;
+    top: 50px;
+    font-weight: bolder;
+}
